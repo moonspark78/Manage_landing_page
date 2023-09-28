@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/style.css">
-  
-  <title>Frontend Mentor | Manage landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 
-  <header>
-    <img src="/images/logo.svg" alt="logo">
-    <nav>
-      <h3>Pricing</h3>
-      <h3>Product</h3>
-      <h3>About Us</h3>
-      <h3>Careers</h3>
-      <h3>Community</h3>
-    </nav>
+  <header class="primary-header">
+    <div class="container">
+      <a href="#"><img src="images/logo.svg" alt="Manage"></a>
+      <nav class="primary-navigation">
+        <ul aria-label="Primary" role="list" class="nav-list">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </nav>
+      <button class="button">Get Started</button>
+    </div>
   </header>
+
+  <div id="container">
+    <section class="landing">
+      <h1>Bring everyone together to build better products.</h1>
+      <h3>Manage makes it simple for software teams to plan day-to-day 
+        tasks while keeping the larger team goals in view. </h3>
+        <div class="intro">
+          <img src="/images/illustration-intro.svg" alt="">
+        </div>
+      </section>
+  </div>
+
+
+
+
+
+
+
+
+
 
 <!--   Pricing
   Product
